@@ -1,0 +1,66 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How are you feeling today?",
+        "Hey! How can I help you?"
+      ]
+    },
+    {
+      "tag": "stress_help",
+      "patterns": [
+        "Stress",
+        "stress",
+        "I am feeling stressed",
+        "I am overwhelmed",
+        "I can't relax",
+        "How to manage stress?"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Take a deep breath. Would you like some tips on managing stress?",
+        "Stress can be tough to handle. Practicing mindfulness and relaxation techniques might help.",
+        "It's important to give yourself time to relax. Let me suggest some calming activities."
+      ]
+    },
+    {
+      "tag": "anxiety_help",
+      "patterns": [
+        "I feel like I can't do it",
+        "I feel anxious",
+        "I have anxiety",
+        "I feel anxious",
+        "How to deal with anxiety?",
+        "I can't stop worrying"
+      ],
+      "responses": [
+        "Many people don't know their own potential and it is normal to feel anxious. But keep up your morale. You are important and loved.",
+        "Anxiety can be difficult. Try grounding techniques like focusing on your senses. Would you like an example?",
+        "It’s okay to feel anxious sometimes. Deep breathing exercises might help. Would you like to try one?",
+        "Talking to someone you trust about your feelings can help. Would you like a resource for professional support?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Take care of yourself.",
+        "See you later! Remember, you're not alone.",
+        "Take care! Wishing you a peaceful day."
+      ]
+    }
+  ]
+}
